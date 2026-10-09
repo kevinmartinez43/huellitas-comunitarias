@@ -1,0 +1,105 @@
+/* DISEÑO GENERAL */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F2E8CF;
+    color: #333333;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #6A994E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 20px 0;
+}
+
+/* BOTONES DE NAVEGACION */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #8B5E3C;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #5C4033;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* SECCIONES Y TARJETAS */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* TITULOS */
+
+h2 {
+    color: #6A994E;
+}
+
+/* TEXTO */
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* LISTAS */
+
+ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+/* IMAGENES */
+
+img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #6A994E;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* BOTON DE LA PAGINA ACTUAL */
+
+nav a.activo {
+    background-color: #5C4033;
+    border: 2px solid white;
+}
